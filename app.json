@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "LokiStream Lite",
+    "scheme": "lokistreamlite",
+    "slug": "lokiStreamLite",
+    "version": "1.1.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "sdkVersion": "46.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "bad39693-ca8a-4da0-abd5-5ae908b98f6c"
+      }
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#333131"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 10000,
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "url": "https://u.expo.dev/bad39693-ca8a-4da0-abd5-5ae908b98f6c"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lavishk.lokiStreamLite"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "intentFilters": [
+        {
+          "action": "MAIN",
+          "data": {},
+          "category": [
+            "LEANBACK_LAUNCHER",
+            "LAUNCHER"
+          ]
+        }
+      ],
+      "package": "com.lavishk.lokiStreamLite"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
